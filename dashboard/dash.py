@@ -79,9 +79,11 @@ class EMG_GUI(QMainWindow):
         if self.record_button.text() == "Start Recording":
             self.record_button.setText("Stop Recording")
             self.record_button.setStyleSheet("background-color: red; color: white")
-            self.csv_file = open("emg_data.csv", "w", newline="")
+            # based on the current time, create a unique CSV filename
+            csv_filename = "recordings/emg_data_" + time.strftime("%Y%m%d-%H%M%S") + ".csv"
+            self.csv_file = open(csv_filename, "w", newline="")
             self.csv_writer = csv.writer(self.csv_file)
-            self.csv_writer.writerow(["Time", "EMG Data"])
+            self.csv_writer.writerow(["time", "emg"])
             self.record_data = True
             self.start_time = time.time()
             self.plot_real_time_data()
@@ -90,13 +92,16 @@ class EMG_GUI(QMainWindow):
             self.record_button.setStyleSheet("background-color: green; color: white")
             self.csv_file.close()
             self.record_data = False
+            # stop the timer and display the last 100 data points
+            self.timer.stop()
+            self.plot_curve.setData(self.xdata[-100:], self.ydata[-100:])
 
     def plot_real_time_data(self):
         # This function will plot the data from the selected serial port in real-time
-        ser = self.ser
         self.xdata, self.ydata = [], []  # Initialize the x and y data arrays
-        self.record_data = False  # Set the record data flag to False
         self.start_time = time.time()  # Get the start time
+        # clear the plot
+        self.plot_widget.clear()
         # Create the the plot curve that updates in real-time every 10ms
         self.plot_curve = self.plot_widget.plot(self.xdata, self.ydata, pen=pg.mkPen('r', width=3))
         self.timer = pg.QtCore.QTimer()
