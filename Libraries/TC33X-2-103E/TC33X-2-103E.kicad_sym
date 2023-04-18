@@ -1,0 +1,109 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TC33X-2-103E" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "R" (id 0) (at 3.05115 3.81394 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "TC33X-2-103E" (id 1) (at 2.54208 -5.08417 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "TRIM_TC33X-2-103E" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Bourns" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE" "Bourns" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "AVAILABILITY" "Unavailable" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "TC33X-2-104E" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PRICE" "None" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "TC33X-2-103E_0_0"
+      (polyline
+        (pts (xy 5.08 0.0) (xy 4.572 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 4.572 0.0) (xy 3.81 -1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 -1.016) (xy 2.54 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 1.27) (xy 1.27 -1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -1.016) (xy 0.0 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy -1.27 -1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -1.016) (xy -2.54 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 1.27) (xy -3.81 -1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 -1.016) (xy -4.572 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -4.572 0.0) (xy -5.08 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy -1.27 2.54)) (stroke (width 0.2032))
+      )
+      (polyline
+        (pts (xy 1.27 2.54) (xy 0.0 1.27)) (stroke (width 0.2032))
+      )
+      (polyline
+        (pts (xy -1.27 2.54) (xy 1.27 2.54)) (stroke (width 0.2032))
+      )
+      (polyline
+        (pts (xy -1.397 -2.286) (xy 1.143 -2.286)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.143 -2.286) (xy -0.127 -2.921)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.127 -2.921) (xy -0.127 -1.651)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.127 -1.651) (xy 1.143 -2.286)) (stroke (width 0.1524))
+      )
+      (pin passive line (at 10.16 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 7.62 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 0.0 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
