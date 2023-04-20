@@ -2501,7 +2501,7 @@
   (symbol (lib_id "Device:R_US") (at 41.1226 49.0728 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1f7daf2e-b380-4470-8713-5d02034b5ee9)
-    (property "Reference" "R?" (id 0) (at 45.0088 50.1904 0)
+    (property "Reference" "R17" (id 0) (at 45.0088 50.1904 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0" (id 1) (at 44.7802 47.879 0)
@@ -2814,7 +2814,7 @@
   (symbol (lib_id "Device:R_US") (at 29.7688 43.0022 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 65150bdc-d09b-4448-a56e-d5e76ca3603c)
-    (property "Reference" "R?" (id 0) (at 33.655 44.1198 0)
+    (property "Reference" "R16" (id 0) (at 33.655 44.1198 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0" (id 1) (at 33.4264 41.8084 0)
@@ -3181,7 +3181,7 @@
   (symbol (lib_id "Device:R_US") (at 23.5458 58.8772 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cd10a77e-9039-48e1-88f1-30e6cff9af6c)
-    (property "Reference" "R?" (id 0) (at 19.6596 57.7596 0)
+    (property "Reference" "R15" (id 0) (at 19.6596 57.7596 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0" (id 1) (at 19.8882 60.071 0)
@@ -3682,14 +3682,14 @@
     (path "/aba6774b-6398-4189-9467-aaae52a3ee6b"
       (reference "R14") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/1f7daf2e-b380-4470-8713-5d02034b5ee9"
-      (reference "R?") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+    (path "/cd10a77e-9039-48e1-88f1-30e6cff9af6c"
+      (reference "R15") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/65150bdc-d09b-4448-a56e-d5e76ca3603c"
-      (reference "R?") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R16") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/cd10a77e-9039-48e1-88f1-30e6cff9af6c"
-      (reference "R?") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+    (path "/1f7daf2e-b380-4470-8713-5d02034b5ee9"
+      (reference "R17") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/268f0419-4fd4-4bd7-b6a2-6e801c0c7a82"
       (reference "U1") (unit 1) (value "LMC6482") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
