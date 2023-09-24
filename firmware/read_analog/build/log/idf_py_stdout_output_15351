@@ -1,0 +1,57 @@
+[1/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/read_analog_main.c.obj
+[2/10] Performing build step for 'bootloader'
+[1/1] cd /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/bootloader/esp-idf/esptool_py && /Users/inga/.espressif/python_env/idf5.2_py3.10_env/bin/python /Users/inga/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/bootloader/bootloader.bin
+Bootloader binary size 0x68d0 bytes. 0x730 bytes (6%) free.
+[3/10] No install step for 'bootloader'
+[4/10] Linking C static library esp-idf/main/libmain.a
+[5/10] Completed 'bootloader'
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable read_analog.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/read_analog.bin
+[9/10] cd /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/esp-idf/esptool_py && /Users/inga/.espressif/python_env/idf5.2_py3.10_env/bin/python /Users/inga/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/partition_table/partition-table.bin /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/read_analog.bin
+read_analog.bin binary size 0x30930 bytes. Smallest app partition is 0x100000 bytes. 0xcf6d0 bytes (81%) free.
+[9/10] cd /Users/inga/esp/esp-idf/components/esptool_py && /usr/local/Cellar/cmake/3.27.3/bin/cmake -D IDF_PATH=/Users/inga/esp/esp-idf -D "SERIAL_TOOL=/Users/inga/.espressif/python_env/idf5.2_py3.10_env/bin/python;;/Users/inga/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build -P /Users/inga/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/cu.usbserial-02898CFA -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 read_analog.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev1
+Serial port /dev/cu.usbserial-02898CFA
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: e0:5a:1b:59:1c:54
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00040fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26832 bytes to 16846...
+Writing at 0x00001000... (50 %)
+Writing at 0x00007681... (100 %)
+Wrote 26832 bytes (16846 compressed) at 0x00001000 in 0.9 seconds (effective 243.9 kbit/s)...
+Hash of data verified.
+Compressed 198960 bytes to 109674...
+Writing at 0x00010000... (14 %)
+Writing at 0x0001cf1e... (28 %)
+Writing at 0x00022b14... (42 %)
+Writing at 0x000286a0... (57 %)
+Writing at 0x0002ece8... (71 %)
+Writing at 0x00036a7b... (85 %)
+Writing at 0x0003c6c7... (100 %)
+Wrote 198960 bytes (109674 compressed) at 0x00010000 in 3.0 seconds (effective 530.0 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 219.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

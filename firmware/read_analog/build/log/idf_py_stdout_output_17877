@@ -1,0 +1,25 @@
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/read_analog_main.c.obj
+In file included from /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:5:
+/Users/inga/esp/esp-idf/components/esp_adc/deprecated/include/esp_adc_cal.h:17:2: warning: #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h" [-Wcpp]
+   17 | #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h"
+      |  ^~~~~~~
+In file included from /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:6:
+/Users/inga/esp/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+[2/9] Performing build step for 'bootloader'
+[1/1] cd /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/bootloader/esp-idf/esptool_py && /Users/inga/.espressif/python_env/idf5.2_py3.10_env/bin/python /Users/inga/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/bootloader/bootloader.bin
+Bootloader binary size 0x68d0 bytes. 0x730 bytes (6%) free.
+[3/9] No install step for 'bootloader'
+[4/9] Linking C static library esp-idf/main/libmain.a
+[5/9] Completed 'bootloader'
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable read_analog.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/read_analog.bin
+[9/9] cd /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/esp-idf/esptool_py && /Users/inga/.espressif/python_env/idf5.2_py3.10_env/bin/python /Users/inga/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/partition_table/partition-table.bin /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/read_analog.bin
+read_analog.bin binary size 0x2ce70 bytes. Smallest app partition is 0x100000 bytes. 0xd3190 bytes (82%) free.
