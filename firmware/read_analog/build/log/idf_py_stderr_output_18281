@@ -1,0 +1,397 @@
+[0;33m--- idf_monitor on /dev/cu.usbserial-02898CFA 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081030: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x400e434b: vPortExitCriticalSafe at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:604
+ (inlined by) s_sar_power_release at /Users/inga/esp/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c:78
+[0m
+[0;33m0x400e4373: sar_periph_ctrl_adc_oneshot_power_release at /Users/inga/esp/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c:106
+[0m
+[0;33m0x400d5c41: adc1_lock_release at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:377 (discriminator 2)
+[0m
+[0;33m0x400d5d2c: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:406 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x40085e80: xQueueSemaphoreTake at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1720
+[0m
+[0;33m0x40082654: lock_acquire_generic at /Users/inga/esp/esp-idf/components/newlib/locks.c:146
+[0m
+[0;33m0x4008273d: _lock_acquire at /Users/inga/esp/esp-idf/components/newlib/locks.c:154
+[0m
+[0;33m0x400d5b9e: adc1_rtc_mode_acquire at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:361
+[0m
+[0;33m0x400d5c76: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:386 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x40085c07: xQueueGenericSend at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:998
+[0m
+[0;33m0x400826cd: lock_release_generic at /Users/inga/esp/esp-idf/components/newlib/locks.c:192
+[0m
+[0;33m0x4008277d: _lock_release at /Users/inga/esp/esp-idf/components/newlib/locks.c:198
+[0m
+[0;33m0x400d5c47: adc1_lock_release at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:378 (discriminator 2)
+[0m
+[0;33m0x400d5d2c: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:406 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400826cd: lock_release_generic at /Users/inga/esp/esp-idf/components/newlib/locks.c:192
+[0m
+[0;33m0x4008277d: _lock_release at /Users/inga/esp/esp-idf/components/newlib/locks.c:198
+[0m
+[0;33m0x400d5c47: adc1_lock_release at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:378 (discriminator 2)
+[0m
+[0;33m0x400d5d2c: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:406 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x400e42d3: vPortExitCriticalSafe at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:604
+ (inlined by) s_sar_power_acquire at /Users/inga/esp/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c:64
+[0m
+[0;33m0x400e436b: sar_periph_ctrl_adc_oneshot_power_acquire at /Users/inga/esp/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c:101
+[0m
+[0;33m0x400d5ba1: adc1_rtc_mode_acquire at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:362
+[0m
+[0;33m0x400d5c76: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:386 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x40085e80: xQueueSemaphoreTake at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1720
+[0m
+[0;33m0x40082654: lock_acquire_generic at /Users/inga/esp/esp-idf/components/newlib/locks.c:146
+[0m
+[0;33m0x4008273d: _lock_acquire at /Users/inga/esp/esp-idf/components/newlib/locks.c:154
+[0m
+[0;33m0x400d5b9e: adc1_rtc_mode_acquire at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:361
+[0m
+[0;33m0x400d5c76: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:386 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x400d5d29: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:404 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x40085e80: xQueueSemaphoreTake at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1720
+[0m
+[0;33m0x40082654: lock_acquire_generic at /Users/inga/esp/esp-idf/components/newlib/locks.c:146
+[0m
+[0;33m0x4008273d: _lock_acquire at /Users/inga/esp/esp-idf/components/newlib/locks.c:154
+[0m
+[0;33m0x400d5b9e: adc1_rtc_mode_acquire at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:361
+[0m
+[0;33m0x400d5c76: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:386 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x400d5d29: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:404 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x40085c07: xQueueGenericSend at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:998
+[0m
+[0;33m0x400826cd: lock_release_generic at /Users/inga/esp/esp-idf/components/newlib/locks.c:192
+[0m
+[0;33m0x4008277d: _lock_release at /Users/inga/esp/esp-idf/components/newlib/locks.c:198
+[0m
+[0;33m0x400d5c47: adc1_lock_release at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:378 (discriminator 2)
+[0m
+[0;33m0x400d5d2c: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:406 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x40085e80: xQueueSemaphoreTake at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1720
+[0m
+[0;33m0x40082654: lock_acquire_generic at /Users/inga/esp/esp-idf/components/newlib/locks.c:146
+[0m
+[0;33m0x4008273d: _lock_acquire at /Users/inga/esp/esp-idf/components/newlib/locks.c:154
+[0m
+[0;33m0x400d5b9e: adc1_rtc_mode_acquire at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:361
+[0m
+[0;33m0x400d5c76: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:386 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x40085e80: xQueueSemaphoreTake at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1720
+[0m
+[0;33m0x40082654: lock_acquire_generic at /Users/inga/esp/esp-idf/components/newlib/locks.c:146
+[0m
+[0;33m0x4008273d: _lock_acquire at /Users/inga/esp/esp-idf/components/newlib/locks.c:154
+[0m
+[0;33m0x400d5b9e: adc1_rtc_mode_acquire at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:361
+[0m
+[0;33m0x400d5c76: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:386 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x400e42d3: vPortExitCriticalSafe at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:604
+ (inlined by) s_sar_power_acquire at /Users/inga/esp/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c:64
+[0m
+[0;33m0x400e436b: sar_periph_ctrl_adc_oneshot_power_acquire at /Users/inga/esp/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c:101
+[0m
+[0;33m0x400d5ba1: adc1_rtc_mode_acquire at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:362
+[0m
+[0;33m0x400d5c76: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:386 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x40085e80: xQueueSemaphoreTake at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1720
+[0m
+[0;33m0x40082654: lock_acquire_generic at /Users/inga/esp/esp-idf/components/newlib/locks.c:146
+[0m
+[0;33m0x4008273d: _lock_acquire at /Users/inga/esp/esp-idf/components/newlib/locks.c:154
+[0m
+[0;33m0x400d5b9e: adc1_rtc_mode_acquire at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:361
+[0m
+[0;33m0x400d5c76: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:386 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x400d5d29: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:404 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d76ab: task_wdt_timeout_handling at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7832: task_wdt_isr at /Users/inga/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082f45: _xt_lowint1 at /Users/inga/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4000bfed: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x40087e93: vPortClearInterruptMaskFromISR at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) vPortExitCritical at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:532
+[0m
+[0;33m0x400d5d29: adc1_get_raw at /Users/inga/esp/esp-idf/components/driver/deprecated/adc_legacy.c:404 (discriminator 2)
+[0m
+[0;33m0x400d52cb: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:94
+[0m
+[0;33m0x400e4420: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40087bad: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0m

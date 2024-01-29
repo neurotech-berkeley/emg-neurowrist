@@ -1,0 +1,65 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/bootloader/esp-idf/esptool_py && /Users/inga/.espressif/python_env/idf5.2_py3.10_env/bin/python /Users/inga/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/bootloader/bootloader.bin
+Bootloader binary size 0x68d0 bytes. 0x730 bytes (6%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/read_analog_main.c.obj
+In file included from /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:5:
+/Users/inga/esp/esp-idf/components/esp_adc/deprecated/include/esp_adc_cal.h:17:2: warning: #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h" [-Wcpp]
+   17 | #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h"
+      |  ^~~~~~~
+In file included from /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:6:
+/Users/inga/esp/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+[4/10] Completed 'bootloader'
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable read_analog.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/read_analog.bin
+[9/10] cd /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/esp-idf/esptool_py && /Users/inga/.espressif/python_env/idf5.2_py3.10_env/bin/python /Users/inga/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/partition_table/partition-table.bin /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/read_analog.bin
+read_analog.bin binary size 0x2ce70 bytes. Smallest app partition is 0x100000 bytes. 0xd3190 bytes (82%) free.
+[9/10] cd /Users/inga/esp/esp-idf/components/esptool_py && /usr/local/Cellar/cmake/3.27.3/bin/cmake -D IDF_PATH=/Users/inga/esp/esp-idf -D "SERIAL_TOOL=/Users/inga/.espressif/python_env/idf5.2_py3.10_env/bin/python;;/Users/inga/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build -P /Users/inga/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/cu.usbserial-02898CFA -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 read_analog.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev1
+Serial port /dev/cu.usbserial-02898CFA
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: e0:5a:1b:59:1c:54
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x0003cfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26832 bytes to 16846...
+Writing at 0x00001000... (50 %)
+Writing at 0x00007681... (100 %)
+Wrote 26832 bytes (16846 compressed) at 0x00001000 in 0.9 seconds (effective 231.3 kbit/s)...
+Hash of data verified.
+Compressed 183920 bytes to 101910...
+Writing at 0x00010000... (14 %)
+Writing at 0x0001c7c4... (28 %)
+Writing at 0x00022134... (42 %)
+Writing at 0x00027a1f... (57 %)
+Writing at 0x0002de03... (71 %)
+Writing at 0x00035cd4... (85 %)
+Writing at 0x0003b85e... (100 %)
+Wrote 183920 bytes (101910 compressed) at 0x00010000 in 3.1 seconds (effective 473.1 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 221.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

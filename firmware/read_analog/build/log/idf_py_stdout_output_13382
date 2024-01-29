@@ -1,0 +1,93 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/sdkconfig
+-- Compiler supported targets: xtensa-esp32-elf
+-- App "read_analog" version: d1e0eff-dirty
+-- Adding linker script /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/inga/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/inga/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/inga/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/inga/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/inga/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/inga/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/inga/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/inga/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/inga/esp/esp-idf/components/app_trace /Users/inga/esp/esp-idf/components/app_update /Users/inga/esp/esp-idf/components/bootloader /Users/inga/esp/esp-idf/components/bootloader_support /Users/inga/esp/esp-idf/components/bt /Users/inga/esp/esp-idf/components/cmock /Users/inga/esp/esp-idf/components/console /Users/inga/esp/esp-idf/components/cxx /Users/inga/esp/esp-idf/components/driver /Users/inga/esp/esp-idf/components/efuse /Users/inga/esp/esp-idf/components/esp-tls /Users/inga/esp/esp-idf/components/esp_adc /Users/inga/esp/esp-idf/components/esp_app_format /Users/inga/esp/esp-idf/components/esp_bootloader_format /Users/inga/esp/esp-idf/components/esp_coex /Users/inga/esp/esp-idf/components/esp_common /Users/inga/esp/esp-idf/components/esp_eth /Users/inga/esp/esp-idf/components/esp_event /Users/inga/esp/esp-idf/components/esp_gdbstub /Users/inga/esp/esp-idf/components/esp_hid /Users/inga/esp/esp-idf/components/esp_http_client /Users/inga/esp/esp-idf/components/esp_http_server /Users/inga/esp/esp-idf/components/esp_https_ota /Users/inga/esp/esp-idf/components/esp_https_server /Users/inga/esp/esp-idf/components/esp_hw_support /Users/inga/esp/esp-idf/components/esp_lcd /Users/inga/esp/esp-idf/components/esp_local_ctrl /Users/inga/esp/esp-idf/components/esp_mm /Users/inga/esp/esp-idf/components/esp_netif /Users/inga/esp/esp-idf/components/esp_netif_stack /Users/inga/esp/esp-idf/components/esp_partition /Users/inga/esp/esp-idf/components/esp_phy /Users/inga/esp/esp-idf/components/esp_pm /Users/inga/esp/esp-idf/components/esp_psram /Users/inga/esp/esp-idf/components/esp_ringbuf /Users/inga/esp/esp-idf/components/esp_rom /Users/inga/esp/esp-idf/components/esp_system /Users/inga/esp/esp-idf/components/esp_timer /Users/inga/esp/esp-idf/components/esp_wifi /Users/inga/esp/esp-idf/components/espcoredump /Users/inga/esp/esp-idf/components/esptool_py /Users/inga/esp/esp-idf/components/fatfs /Users/inga/esp/esp-idf/components/freertos /Users/inga/esp/esp-idf/components/hal /Users/inga/esp/esp-idf/components/heap /Users/inga/esp/esp-idf/components/http_parser /Users/inga/esp/esp-idf/components/idf_test /Users/inga/esp/esp-idf/components/ieee802154 /Users/inga/esp/esp-idf/components/json /Users/inga/esp/esp-idf/components/log /Users/inga/esp/esp-idf/components/lwip /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main /Users/inga/esp/esp-idf/components/mbedtls /Users/inga/esp/esp-idf/components/mqtt /Users/inga/esp/esp-idf/components/newlib /Users/inga/esp/esp-idf/components/nvs_flash /Users/inga/esp/esp-idf/components/nvs_sec_provider /Users/inga/esp/esp-idf/components/openthread /Users/inga/esp/esp-idf/components/partition_table /Users/inga/esp/esp-idf/components/perfmon /Users/inga/esp/esp-idf/components/protobuf-c /Users/inga/esp/esp-idf/components/protocomm /Users/inga/esp/esp-idf/components/pthread /Users/inga/esp/esp-idf/components/sdmmc /Users/inga/esp/esp-idf/components/soc /Users/inga/esp/esp-idf/components/spi_flash /Users/inga/esp/esp-idf/components/spiffs /Users/inga/esp/esp-idf/components/tcp_transport /Users/inga/esp/esp-idf/components/ulp /Users/inga/esp/esp-idf/components/unity /Users/inga/esp/esp-idf/components/usb /Users/inga/esp/esp-idf/components/vfs /Users/inga/esp/esp-idf/components/wear_levelling /Users/inga/esp/esp-idf/components/wifi_provisioning /Users/inga/esp/esp-idf/components/wpa_supplicant /Users/inga/esp/esp-idf/components/xtensa
+-- Configuring done (3.4s)
+-- Generating done (0.3s)
+-- Build files have been written to: /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build
+[1/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/read_analog_main.c.obj
+[2/10] Linking C static library esp-idf/main/libmain.a
+[3/10] Generating ld/sections.ld
+[4/10] Linking CXX executable read_analog.elf
+[5/10] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/read_analog.bin
+[6/10] cd /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/esp-idf/esptool_py && /Users/inga/.espressif/python_env/idf5.2_py3.10_env/bin/python /Users/inga/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/partition_table/partition-table.bin /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/read_analog.bin
+read_analog.bin binary size 0x30930 bytes. Smallest app partition is 0x100000 bytes. 0xcf6d0 bytes (81%) free.
+[7/10] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/sdkconfig
+-- Compiler supported targets: xtensa-esp32-elf
+-- Adding linker script /Users/inga/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script /Users/inga/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/inga/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/inga/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/inga/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/inga/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script /Users/inga/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /Users/inga/esp/esp-idf/components/bootloader /Users/inga/esp/esp-idf/components/bootloader_support /Users/inga/esp/esp-idf/components/efuse /Users/inga/esp/esp-idf/components/esp_app_format /Users/inga/esp/esp-idf/components/esp_bootloader_format /Users/inga/esp/esp-idf/components/esp_common /Users/inga/esp/esp-idf/components/esp_hw_support /Users/inga/esp/esp-idf/components/esp_rom /Users/inga/esp/esp-idf/components/esp_system /Users/inga/esp/esp-idf/components/esptool_py /Users/inga/esp/esp-idf/components/freertos /Users/inga/esp/esp-idf/components/hal /Users/inga/esp/esp-idf/components/log /Users/inga/esp/esp-idf/components/bootloader/subproject/main /Users/inga/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /Users/inga/esp/esp-idf/components/newlib /Users/inga/esp/esp-idf/components/partition_table /Users/inga/esp/esp-idf/components/soc /Users/inga/esp/esp-idf/components/spi_flash /Users/inga/esp/esp-idf/components/xtensa
+-- Configuring done (3.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/bootloader
+[1/1] cd /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/bootloader/esp-idf/esptool_py && /Users/inga/.espressif/python_env/idf5.2_py3.10_env/bin/python /Users/inga/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build/bootloader/bootloader.bin
+Bootloader binary size 0x68d0 bytes. 0x730 bytes (6%) free.
+[8/10] No install step for 'bootloader'
+[9/10] Completed 'bootloader'
+[9/10] cd /Users/inga/esp/esp-idf/components/esptool_py && /usr/local/Cellar/cmake/3.27.3/bin/cmake -D IDF_PATH=/Users/inga/esp/esp-idf -D "SERIAL_TOOL=/Users/inga/.espressif/python_env/idf5.2_py3.10_env/bin/python;;/Users/inga/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/build -P /Users/inga/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/cu.usbserial-02898CFA -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 read_analog.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev1
+Serial port /dev/cu.usbserial-02898CFA
+Connecting.....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: e0:5a:1b:59:1c:54
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00040fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26832 bytes to 16846...
+Writing at 0x00001000... (50 %)
+Writing at 0x00007681... (100 %)
+Wrote 26832 bytes (16846 compressed) at 0x00001000 in 0.9 seconds (effective 233.2 kbit/s)...
+Hash of data verified.
+Compressed 198960 bytes to 109672...
+Writing at 0x00010000... (14 %)
+Writing at 0x0001cf21... (28 %)
+Writing at 0x00022b18... (42 %)
+Writing at 0x000286a4... (57 %)
+Writing at 0x0002ecea... (71 %)
+Writing at 0x00036aa6... (85 %)
+Writing at 0x0003c6cc... (100 %)
+Wrote 198960 bytes (109672 compressed) at 0x00010000 in 3.0 seconds (effective 531.1 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 221.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

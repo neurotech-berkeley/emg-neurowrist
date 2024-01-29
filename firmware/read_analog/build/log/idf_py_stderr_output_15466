@@ -1,0 +1,1205 @@
+[0;33m--- idf_monitor on /dev/cu.usbserial-02898CFA 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081128: call_start_cpu1 at /Users/inga/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008175e: panic_abort at /Users/inga/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086629: esp_system_abort at /Users/inga/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x4008b986: abort at /Users/inga/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008661f: _esp_error_check_failed at /Users/inga/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d5556: continuous_adc_init at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:83 (discriminator 1)
+[0m
+[0;33m0x400d55a1: app_main at /Users/inga/Desktop/NT@B/emg-neurowrist/firmware/read_analog/main/read_analog_main.c:98
+[0m
+[0;33m0x400e5d98: main_task at /Users/inga/esp/esp-idf/components/freertos/app_startup.c:217 (discriminator 13)
+[0m
+[0;33m0x40088bd1: vPortTaskWrapper at /Users/inga/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m
